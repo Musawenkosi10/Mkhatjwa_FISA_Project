@@ -1,103 +1,119 @@
-Mkhatjwa FISA Project
-📌 Project Overview
+# 🚨 Mkhatjwa Final Year FISA Project
 
-The Mkhatjwa FISA Project is a final-year academic software project developed as part of a Diploma in Computer Engineering.
-The system simulates a basic security / monitoring environment consisting of multiple interacting applications.
+A distributed Java-based security monitoring system developed as part of my **Software Development 2 (SFD2) Final Integrated Student Assessment (FISA)**.
 
-This project demonstrates understanding of:
+This project simulates a real-world control room environment where multiple client applications communicate with a central server.
 
-Java application development
+---
 
-Client–server concepts
+## 📌 Project Overview
 
-Multi-module system design
+The system consists of multiple independent Java applications designed to work together:
 
-GUI-based desktop applications
+- **Control Room Server**
+- **Client Guard Application**
+- **Client Home Application**
 
-Software architecture & interaction
+Each component plays a specific role within the simulated security ecosystem.
 
-🧩 System Components
+---
 
-The project consists of three main modules:
+## 🧩 System Architecture
 
-1️⃣ Mkhatjwa_ClientHome
+The project follows a **client–server model**:
 
-Represents the client/home-side application.
+- The **Control Room Server** acts as the central coordinator.
+- Client applications connect to the server.
+- Data is exchanged between components.
 
-Responsibilities:
+This demonstrates:
 
-User interaction interface
+✅ Socket Programming  
+✅ Multi-application Communication  
+✅ Distributed System Concepts  
 
-Sending requests / data to server
+---
 
-Simulating client operations
+## 🖥️ Applications Included
 
-2️⃣ Mkhatjwa_ClientGuard
+### 🔹 Control Room Server
+Responsible for:
 
-Represents the guard/security interface.
+- Accepting client connections
+- Managing communication
+- Processing incoming data
 
-Responsibilities:
+---
 
-Monitoring events
+### 🔹 Client Guard
+Simulates a guard-side interface:
 
-Handling alerts / actions
+- Sends updates to server
+- Receives instructions/events
+- Demonstrates client networking
 
-Acting as a security control interface
+---
 
-3️⃣ Mkhatjwa_ControlRoomServer
+### 🔹 Client Home
+Represents a home/user interface:
 
-Represents the central control room / server.
+- Interacts with server
+- Demonstrates remote monitoring logic
 
-Responsibilities:
+---
 
-Processing client requests
+## ⚙️ Technologies Used
 
-Managing system logic
+- **Java**
+- **Java Swing / GUI**
+- **Socket Programming**
+- **NetBeans IDE**
+- **Client–Server Networking**
 
-Coordinating communication between modules
+---
 
-⚙️ Technologies Used
+## 🎯 Academic Purpose
 
-Language: Java
+This project was developed for:
 
-IDE: NetBeans
+**Software Development 2 (SFD2)**  
+Diploma in Computer Engineering
 
-Build System: Ant (build.xml)
+Focus Areas:
 
-Application Type: Desktop GUI Applications
+- Networking
+- Software Architecture
+- GUI Development
+- System Communication
 
-▶️ How To Run The Project
+---
 
-Open the project using NetBeans IDE:
+## 🚀 How to Run
 
-Launch NetBeans
+1. Open project in **NetBeans IDE**
+2. Build the applications
+3. Start the **Control Room Server**
+4. Run client applications
 
-Select Open Project
+> ⚠️ Server must be running before clients connect
 
-Navigate to the project folder
+---
 
-Build and run the desired module
+## 📷 Screenshots (Optional Upgrade Later)
 
-Each module can be executed independently depending on the simulation scenario.
+You can add screenshots here:
 
-🎯 Purpose of the Project
 
-This project was developed for academic purposes to demonstrate:
+---
 
-Software design skills
+## 👨‍💻 Author
 
-Object-oriented programming
+**Musawenkosi Mkhatjwa**  
+Final Year Computer Engineering Student
 
-Modular application structure
+---
 
-Practical implementation of theoretical concepts
+## ✅ Notes
 
-👨‍💻 Author
+This project is part of my academic portfolio and demonstrates practical implementation of distributed systems and Java application development.
 
-Name: Musawenkosi Mkhatjwa
-Programme: Diploma in Computer Engineering
-Institution: Cape Peninsula University of Technology
-
-📄 License
-
-This project is for educational purposes.

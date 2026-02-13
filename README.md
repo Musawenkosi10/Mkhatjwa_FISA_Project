@@ -99,9 +99,19 @@ Focus Areas:
 
 ---
 
-## 📷 Screenshots (Optional Upgrade Later)
+## 📷 Screenshots
+-Start the Mkhatjwa_ControlRoomServer file first:
+<img width="792" height="551" alt="image" src="https://github.com/user-attachments/assets/a3c016f4-2b8d-4d02-aaa4-bdc40bcc81a7" />
+<img width="792" height="551" alt="image" src="https://github.com/user-attachments/assets/a3c016f4-2b8d-4d02-aaa4-bdc40bcc81a7" />
+-Then run the Mkhatjwa_ClientHome:
+<img width="791" height="637" alt="image" src="https://github.com/user-attachments/assets/360711e1-cc29-41dd-8ca8-40b700c2c70b" />
+<img width="791" height="637" alt="image" src="https://github.com/user-attachments/assets/360711e1-cc29-41dd-8ca8-40b700c2c70b" />
+-Finally run the Mkhatjwa_ClientGuard:
+<img width="903" height="468" alt="image" src="https://github.com/user-attachments/assets/8a61f41e-d973-4b1b-a118-24157c209074" />
+<img width="903" height="468" alt="image" src="https://github.com/user-attachments/assets/8a61f41e-d973-4b1b-a118-24157c209074" />
 
-You can add screenshots here:
+
+
 
 
 ---

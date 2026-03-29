@@ -16,6 +16,7 @@ The system consists of three Java applications, each serving a unique role:
 - **Client Home Application** - Home-side client interface for triggering alarms and sending location info.
 
 The system demonstrates real-time client-server communication, alarm handling and guard dispatch workflow.
+
 ---
 
 ## 🧩 System Architecture
